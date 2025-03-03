@@ -12,7 +12,7 @@ for (let i = 0; i < 5; i++) {
     numbers.push(num);
     process.stdout.write(num + " "); 
 
-    // Update min and max
+    
     if (num < minVal) minVal = num;
     if (num > maxVal) maxVal = num;
 }
