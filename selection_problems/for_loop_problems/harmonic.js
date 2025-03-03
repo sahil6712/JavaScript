@@ -13,3 +13,4 @@ if (isNaN(n) || n <= 0) {
     
     console.log(`The ${n}th Harmonic Number (H${n}) is: ${harmonicNumber.toFixed(6)}`);
 }
+
