@@ -4,7 +4,7 @@ let nums = new Array();
 for(let i=0; i<10; i++) {
     let random = Math.floor(Math.random()*900)+100;
     nums.push(random);
-    console.log(nums[i]);
+    console.log(nums[i]);  // print the elements of array
 } 
 
 let largest = 99;
